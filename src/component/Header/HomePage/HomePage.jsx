@@ -10,9 +10,8 @@ const HomePage = () => {
           Bite into Bills at Bite Bills
           <br /> Your Perfect Food Haven
         </h1>
-        <p className="font-bold">
-          Discover our menu filled with fresh, offering you the perfect blend of
-          taste and quality at an unbeatable price.
+        <p className="font-bold w-[45%] mx-auto text-center">
+        Explore delicious, easy-to-make recipes that inspire and delight! Join us at Bite Bills and elevate your cooking today!
         </p>
         <div className="flex gap-3 mt-8">
           <button className="text-black font-bold border px-[35px] py-[10px] rounded-full bg-[#0be58a] ">
