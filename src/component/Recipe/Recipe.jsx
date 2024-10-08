@@ -3,9 +3,9 @@ import { FaGripfire } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
 import { TiStarburstOutline } from "react-icons/ti";
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe,addToPreparing }) => {
   const {
-    // recipe_id,
+    recipe_id,
     recipe_name,
     recipe_image,
     short_description,
@@ -42,12 +42,13 @@ const Recipe = ({ recipe }) => {
           </div>
         </div>
       </div>
-      <button className="bg-[#0be58a] py-[8px] px-[30px] text-[18px] font-bold rounded-full mt-[20px] text-indigo-950 ">Want to Cook</button>
+      <button onClick={()=> addToPreparing(recipe,recipe_id)} className="bg-[#0be58a] py-[8px] px-[30px] text-[18px] font-bold rounded-full mt-[20px] text-indigo-950 ">Want to Cook</button>
     </div>
   );
 };
 Recipe.propTypes = {
   recipe: PropTypes.object.isRequired,
+  addToPreparing: PropTypes.func.isRequired,
 };
 
 export default Recipe;
