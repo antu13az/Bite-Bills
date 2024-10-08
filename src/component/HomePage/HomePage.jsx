@@ -1,4 +1,4 @@
-import homePageImg from "../../../assets/homepage-1.jpeg";
+import homePageImg from "../../assets/homepage-1.jpeg";
 const HomePage = () => {
   return (
     <section

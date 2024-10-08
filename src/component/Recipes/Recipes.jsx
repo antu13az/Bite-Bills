@@ -22,9 +22,9 @@ const Recipes = () => {
           your taste buds!
         </p>
       </div>
-      <div className="flex  py-[50px]">
+      <div className="flex  py-[50px] gap-5">
 
-      <div className="md:w-2/3">
+      <div className="md:w-2/3 grid grid-cols-2 gap-5">
         {recipes.map((recipe, idx) => (
           <Recipe recipe={recipe} key={idx} />
         ))}
