@@ -35,10 +35,10 @@ const Recipe = ({ recipe,addToPreparing }) => {
 
         <div className="flex items-center pt-[10px] border-t-2">
           <div className="flex items-center mr-[80px] gap-2">
-            <IoMdTime /> <p>{preparing_time}</p>
+            <IoMdTime /> <p>{preparing_time} minutes</p>
           </div>
           <div className="flex items-center gap-2">
-            <FaGripfire /> <p> {calories}</p>
+            <FaGripfire /> <p> {calories} calories</p>
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ const Recipes = () => {
   }, []);
 
   const addToPreparing = (food) => {
+
     const remaining = preparing.find(
       (item) => item.recipe_id === food.recipe_id
     );

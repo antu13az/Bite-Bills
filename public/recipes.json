@@ -11,8 +11,8 @@
       "2 cloves garlic",
       "1 tbsp olive oil"
     ],
-    "preparing_time": "30 min",
-    "calories": "320 calories"
+    "preparing_time": 30 ,
+    "calories": 320 
   },
   {
     "recipe_id": 2,
@@ -27,8 +27,8 @@
       "100 g parmesan cheese",
       "1 liter vegetable broth"
     ],
-    "preparing_time": "45 min",
-    "calories": "350 calories"
+    "preparing_time": 45,
+    "calories": 350 
   },
   {
     "recipe_id": 3,
@@ -44,8 +44,8 @@
       "1 tbsp olive oil",
       "50 g parmesan cheese"
     ],
-    "preparing_time": "40 min",
-    "calories": "450 calories"
+    "preparing_time": 40 ,
+    "calories": 450 
   },
   {
     "recipe_id": 4,
@@ -59,8 +59,8 @@
       "4 tbsp Caesar dressing",
       "1 chicken breast, grilled and sliced"
     ],
-    "preparing_time": "15 min",
-    "calories": "220 calories"
+    "preparing_time": 15 ,
+    "calories": 220 
   },
   {
     "recipe_id": 5,
@@ -75,8 +75,8 @@
       "3 tbsp soy sauce",
       "1 tbsp sesame oil"
     ],
-    "preparing_time": "20 min",
-    "calories": "180 calories"
+    "preparing_time": 20 ,
+    "calories": 180 
   },
   {
     "recipe_id": 6,
@@ -91,7 +91,7 @@
       "1/2 cup cheddar cheese, grated",
       "1/4 cup salsa"
     ],
-    "preparing_time": "25 min",
-    "calories": "400 calories"
+    "preparing_time": 25,
+    "calories": 400
   }
 ]
